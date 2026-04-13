@@ -154,3 +154,34 @@ for k, v in sorted(summary_tags.items(), key=lambda x: -x[1]):
 
 
 
+import matplotlib.pyplot as plt
+
+# Example: manual custom tags
+labels1 = list(manual_tag_counter.keys())
+sizes1 = list(manual_tag_counter.values())
+labels2 = list(auto_tag_counter.keys())
+sizes2 = list(auto_tag_counter.values())
+
+
+plt.figure()
+plt.pie(sizes1, labels=labels1, autopct='%1.1f%%')
+plt.title("Manual Tag Distribution")
+plt.savefig("Manual_Tag.png")
+
+plt.figure()
+plt.pie(sizes2, labels=labels2, autopct='%1.1f%%')
+plt.title("Auto Tag Distribution")
+plt.savefig("Auto_Tag.png")
+
+
+plt.figure()
+plt.bar(headline_tags.keys(), headline_tags.values())
+plt.title("Headline Tag %")
+plt.xticks(rotation=45)
+plt.savefig("Headline_Tag.png")
+
+plt.figure()
+plt.bar(summary_tags.keys(), summary_tags.values())
+plt.title("Summary Tag %")
+plt.xticks(rotation=45)
+plt.savefig("Summary_Tag.png")
