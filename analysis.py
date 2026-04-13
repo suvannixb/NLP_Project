@@ -19,6 +19,25 @@ auto_tokens = 0
 
 sentence_lengths = []
 
+headline_data = []
+summary_data = []
+
+for entry in data:
+    if entry["type"] == "Headline":
+        headline_data.append(entry)
+    else:
+        summary_data.append(entry)
+
+headline_manual = []
+summary_manual = []
+
+for i, entry in enumerate(data):
+    if i < 30:  # only manual
+        if entry["type"] == "Headline":
+            headline_manual.append(entry)
+        else:
+            summary_manual.append(entry)
+
 for i, entry in enumerate(data):
     tokens = entry["tokens"]
     tags = entry["tags"]
@@ -44,6 +63,13 @@ for i, entry in enumerate(data):
 print("\n=== DATASET STATS ===")
 print(f"Total Sentences: {len(data)}")
 print(f"Average Length: {sum(sentence_lengths)/len(data):.2f}")
+
+def avg_length(dataset):
+    return sum(len(x["tokens"]) for x in dataset) / len(dataset)
+
+print("\n=== HEADLINE vs SUMMARY LENGTH ===")
+print(f"Headline Avg Length: {avg_length(headline_data):.2f}")
+print(f"Summary Avg Length: {avg_length(summary_data):.2f}")
 
 print("\n=== CUSTOM TAGS (MANUAL 1–30 ONLY) ===")
 manual_custom_counter = Counter()
@@ -83,55 +109,48 @@ for tag, count in auto_tag_counter.most_common():
     print(f"{tag}: {percent:.2f}")
 
 
-with open("analysis.txt", "w", encoding="utf-8") as f:
+def pos_percent(dataset):
+    counter = Counter()
+    total = 0
     
-    # Dataset stats
-    f.write("=== DATASET STATS ===\n")
-    f.write(f"Total Sentences: {len(data)}\n")
-    f.write(f"Average Length: {sum(sentence_lengths)/len(data):.2f}\n\n")
+    for entry in dataset:
+        counter.update(entry["pos_tags"])
+        total += len(entry["pos_tags"])
     
-    f.write("\n=== CUSTOM TAGS (MANUAL 1–30 ONLY) ===\n")
+    return {k: (v/total)*100 for k, v in counter.items()}
 
-    manual_custom_counter = Counter()
+headline_pos = pos_percent(headline_data)
+summary_pos = pos_percent(summary_data)
 
-    for i, entry in enumerate(data):
-        if i < 30:
-            manual_custom_counter.update(entry["tags"])
+print("\n=== POS TAG % (HEADLINE) ===")
+for k, v in sorted(headline_pos.items(), key=lambda x: -x[1])[:5]:
+    print(f"{k}: {v:.2f}%")
 
-    total_manual = sum(manual_custom_counter.values())
+print("\n=== POS TAG % (SUMMARY) ===")
+for k, v in sorted(summary_pos.items(), key=lambda x: -x[1])[:5]:
+    print(f"{k}: {v:.2f}%")
 
-    for tag, count in manual_custom_counter.most_common():
-        percent = (count / total_manual) * 100
-        f.write(f"{tag}: {count} ({percent:.2f}%)\n")
+
+def tag_percent(dataset):
+    counter = Counter()
+    total = 0
     
-    f.write("\n=== TAG PERCENTAGES ===\n")
-    for tag, count in tag_counter.most_common():
-        percent = (count / sum(tag_counter.values())) * 100
-        f.write(f"{tag}: {percent:.2f}%\n")
+    for entry in dataset:
+        counter.update(entry["tags"])
+        total += len(entry["tags"])
     
-    # POS tags
-    f.write("\n=== POS TAG DISTRIBUTION ===\n")
-    for tag, count in pos_counter.most_common():
-        f.write(f"{tag}: {count}\n")
-    
-    # Dependency tags
-    f.write("\n=== DEPENDENCY TAG DISTRIBUTION ===\n")
-    for tag, count in dep_counter.most_common():
-        f.write(f"{tag}: {count}\n")
-    
-    # Manual vs Auto
-    f.write("\n=== MANUAL (1–30) TAGS ===\n")
-    total_manual = sum(manual_tag_counter.values())
+    return {k: (v/total)*100 for k, v in counter.items()}
 
-    for tag, count in manual_tag_counter.most_common():
-        percent = (count / total_manual) * 100
-        f.write(f"{tag}: {count} ({percent:.2f}%)\n")
+headline_tags = tag_percent(headline_manual)
+summary_tags = tag_percent(summary_manual)
 
-    f.write("\n=== AUTO (31+) TAGS ===\n")
-    total_auto = sum(auto_tag_counter.values())
+print("\n=== CUSTOM TAG % (HEADLINE - MANUAL ONLY) ===")
+for k, v in sorted(headline_tags.items(), key=lambda x: -x[1]):
+    print(f"{k}: {v:.2f}%")
 
-    for tag, count in auto_tag_counter.most_common():
-        percent = (count / total_auto) * 100
-        f.write(f"{tag}: {count} ({percent:.2f}%)\n")
+print("\n=== CUSTOM TAG % (SUMMARY - MANUAL ONLY) ===")
+for k, v in sorted(summary_tags.items(), key=lambda x: -x[1]):
+    print(f"{k}: {v:.2f}%")
 
-print("Analysis saved to analysis.txt")
+
+

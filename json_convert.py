@@ -23,6 +23,7 @@ with open(input_file, "r", encoding="utf-8") as f:
                 continue
             
             data.append({
+                "type": row["type"],
                 "tokens": tokens,
                 "tags": event_tags,
                 "pos_tags": pos_tags,

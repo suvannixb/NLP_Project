@@ -1,5 +1,6 @@
 [
   {
+    "type": "Headline",
     "tokens": [
       "Krunal",
       ",",
@@ -62,6 +63,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "KKR",
       "lost",
@@ -132,6 +134,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Kishan",
       "'s",
@@ -190,6 +193,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "SRH",
       "threatened",
@@ -280,6 +284,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Noor",
       ",",
@@ -334,6 +339,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Debutant",
       "Vignesh",
@@ -424,6 +430,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Ashutosh",
       "stuns",
@@ -466,6 +473,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "DC",
       "'s",
@@ -564,6 +572,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Shreyas",
       "Iyer",
@@ -614,6 +623,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Arya",
       "and",
@@ -696,6 +706,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "KKR",
       "spinners",
@@ -754,6 +765,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "KKR",
       "were",
@@ -844,6 +856,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Shardul",
       "and",
@@ -886,6 +899,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "LSG",
       "chasing",
@@ -984,6 +998,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Patidar",
       ",",
@@ -1050,6 +1065,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "CSK",
       "could",
@@ -1136,6 +1152,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Sai",
       "Sudharsan",
@@ -1186,6 +1203,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "There",
       "was",
@@ -1320,6 +1338,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Explosive",
       "SRH",
@@ -1362,6 +1381,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Starc",
       "'s",
@@ -1420,6 +1440,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rana",
       "81",
@@ -1470,6 +1491,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Rajasthan",
       "Royals",
@@ -1544,6 +1566,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rookies",
       "Ashwani",
@@ -1590,6 +1613,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Ashwani",
       "'s",
@@ -1716,6 +1740,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Prabhsimran",
       "and",
@@ -1758,6 +1783,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Punjab",
       "Kings",
@@ -1828,6 +1854,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Buttler",
       "73*",
@@ -1882,6 +1909,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Livingstone",
       "fifty",
@@ -1988,6 +2016,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Venkatesh",
       "and",
@@ -2034,6 +2063,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "KKR",
       "'s",
@@ -2156,6 +2186,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Hardik",
       "heroics",
@@ -2218,6 +2249,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Marsh",
       "and",
@@ -2312,6 +2344,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "KL",
       "Rahul",
@@ -2358,6 +2391,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "DC",
       ",",
@@ -2452,6 +2486,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Archer",
       "leads",
@@ -2518,6 +2553,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "It",
       "looked",
@@ -2636,6 +2672,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Siraj",
       ",",
@@ -2686,6 +2723,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "It",
       "was",
@@ -2752,6 +2790,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Kohli",
       ",",
@@ -2818,6 +2857,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Despite",
       "scoring",
@@ -2932,6 +2972,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Marsh",
       ",",
@@ -2982,6 +3023,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "LSG",
       "conceded",
@@ -3080,6 +3122,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Arya",
       "'s",
@@ -3142,6 +3185,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "CSK",
       "dropped",
@@ -3204,6 +3248,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Sai",
       "Sudharsan",
@@ -3266,6 +3311,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "They",
       "posted",
@@ -3360,6 +3406,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "KL",
       "Rahul",
@@ -3402,6 +3449,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "After",
       "being",
@@ -3516,6 +3564,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "CSK",
       "suffer",
@@ -3574,6 +3623,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Batting",
       "first",
@@ -3648,6 +3698,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Markram",
       "and",
@@ -3694,6 +3745,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "A",
       "target",
@@ -3780,6 +3832,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Abhishek",
       "Sharma",
@@ -3842,6 +3895,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Travishek",
       "finally",
@@ -3900,6 +3954,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "RCB",
       "extend",
@@ -3962,6 +4017,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Yashasvi",
       "Jaiswal",
@@ -4068,6 +4124,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Mumbai",
       "Indians",
@@ -4122,6 +4179,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Karun",
       "Nair",
@@ -4196,6 +4254,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Dhoni",
       ",",
@@ -4246,6 +4305,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Dhoni",
       "and",
@@ -4336,6 +4396,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Chahal",
       "four",
@@ -4386,6 +4447,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Chasing",
       "112",
@@ -4456,6 +4518,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "DC",
       "win",
@@ -4510,6 +4573,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "With",
       "nine",
@@ -4636,6 +4700,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "MI",
       "'s",
@@ -4694,6 +4759,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Will",
       "Jacks",
@@ -4768,6 +4834,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Chahal",
       ",",
@@ -4826,6 +4893,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "A",
       "bowler",
@@ -4928,6 +4996,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Buttler",
       "bosses",
@@ -4982,6 +5051,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "After",
       "keeping",
@@ -5068,6 +5138,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Ice",
       "-",
@@ -5146,6 +5217,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Needing",
       "to",
@@ -5248,6 +5320,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Kohli",
       ",",
@@ -5298,6 +5371,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Kohli",
       "stayed",
@@ -5396,6 +5470,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rohit",
       ",",
@@ -5450,6 +5525,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "MI",
       "mowed",
@@ -5508,6 +5584,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Gujarat",
       "Titans",
@@ -5562,6 +5639,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "The",
       "GT",
@@ -5640,6 +5718,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Mukesh",
       "four",
@@ -5710,6 +5789,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "DC",
       "restricted",
@@ -5804,6 +5884,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Red",
       "-",
@@ -5866,6 +5947,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Rohit",
       "scored",
@@ -5936,6 +6018,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Kohli",
       "and",
@@ -5998,6 +6081,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "An",
       "unhittable",
@@ -6072,6 +6156,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Harshal",
       ",",
@@ -6134,6 +6219,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Brevis",
       ",",
@@ -6220,6 +6306,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Arya",
       "and",
@@ -6270,6 +6357,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "PBKS",
       "moved",
@@ -6372,6 +6460,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Suryakumar",
       "and",
@@ -6422,6 +6511,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Pant",
       "lasted",
@@ -6524,6 +6614,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "RCB",
       "go",
@@ -6582,6 +6673,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "The",
       "left",
@@ -6676,6 +6768,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Suryavanshi",
       ",",
@@ -6726,6 +6819,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "He",
       "smashed",
@@ -6808,6 +6902,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Narine",
       "'s",
@@ -6866,6 +6961,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Narine",
       "and",
@@ -6968,6 +7064,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Shreyas",
       ",",
@@ -7006,6 +7103,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Chahal",
       "'s",
@@ -7084,6 +7182,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Clinical",
       "Mumbai",
@@ -7150,6 +7249,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "MI",
       "posted",
@@ -7240,6 +7340,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Gill",
       ",",
@@ -7302,6 +7403,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Each",
       "of",
@@ -7400,6 +7502,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Dayal",
       "trumps",
@@ -7462,6 +7565,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Dayal",
       "did",
@@ -7548,6 +7652,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "KKR",
       "survive",
@@ -7610,6 +7715,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "An",
       "epic",
@@ -7732,6 +7838,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Prabhsimran",
       "91",
@@ -7794,6 +7901,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Against",
       "LSG",
@@ -7892,6 +8000,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rain",
       "knocks",
@@ -7938,6 +8047,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "SRH",
       "captain",
@@ -8004,6 +8114,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rain",
       ",",
@@ -8090,6 +8201,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "A",
       "see",
@@ -8176,6 +8288,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Brevis",
       "cracks",
@@ -8226,6 +8339,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Earlier",
       ",",
@@ -8324,6 +8438,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rain",
       "ends",
@@ -8378,6 +8493,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "The",
       "fans",
@@ -8440,6 +8556,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Nehal",
       "Wadhera",
@@ -8494,6 +8611,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "RR",
       "got",
@@ -8596,6 +8714,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Sai",
       "Sudharsan",
@@ -8646,6 +8765,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Sai",
       "Sudharsan",
@@ -8780,6 +8900,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Abhishek",
       "'s",
@@ -8838,6 +8959,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Marsh",
       "and",
@@ -8936,6 +9058,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Madhwal",
       "leads",
@@ -8998,6 +9121,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "CSK",
       "were",
@@ -9092,6 +9216,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Suryakumar",
       ",",
@@ -9138,6 +9263,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Delhi",
       "Capitals",
@@ -9224,6 +9350,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Marsh",
       "ton",
@@ -9298,6 +9425,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Shahrukh",
       "Khan",
@@ -9372,6 +9500,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Kishan",
       ",",
@@ -9438,6 +9567,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "RCB",
       "lost",
@@ -9548,6 +9678,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Rizvi",
       "special",
@@ -9594,6 +9725,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Punjab",
       "Kings",
@@ -9652,6 +9784,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Brevis",
       ",",
@@ -9718,6 +9851,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Their",
       "dazzling",
@@ -9828,6 +9962,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Klaasen",
       "'s",
@@ -9890,6 +10025,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "SRH",
       "post",
@@ -9968,6 +10104,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Arya",
       "and",
@@ -10034,6 +10171,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Josh",
       "Inglis",
@@ -10136,6 +10274,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Jitesh",
       "85",
@@ -10194,6 +10333,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Jitesh",
       "added",
@@ -10280,6 +10420,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Bowlers",
       ",",
@@ -10342,6 +10483,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Hazlewood",
       ",",
@@ -10416,6 +10558,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "MI",
       "eliminate",
@@ -10466,6 +10609,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "Rohit",
       "and",
@@ -10592,6 +10736,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Sensational",
       "Shreyas",
@@ -10638,6 +10783,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "For",
       "the",
@@ -10720,6 +10866,7 @@
     ]
   },
   {
+    "type": "Headline",
     "tokens": [
       "Kohli",
       "and",
@@ -10758,6 +10905,7 @@
     ]
   },
   {
+    "type": "Summary",
     "tokens": [
       "An",
       "18",

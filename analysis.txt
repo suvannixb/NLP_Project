@@ -1,7 +1,11 @@
+
 === DATASET STATS ===
 Total Sentences: 148
 Average Length: 15.84
 
+=== HEADLINE vs SUMMARY LENGTH ===
+Headline Avg Length: 11.43
+Summary Avg Length: 20.26
 
 === CUSTOM TAGS (MANUAL 1–30 ONLY) ===
 O: 278 (59.91%)
@@ -17,20 +21,6 @@ RUN_EVENT: 3 (0.65%)
 PARTNERSHIP: 2 (0.43%)
 VENUE: 2 (0.43%)
 
-=== TAG PERCENTAGES ===
-O: 92.07%
-PLAYER: 2.56%
-TEAM: 1.75%
-RESULT: 1.28%
-SCORE: 0.60%
-TOURNAMENT: 0.38%
-WICKET: 0.38%
-ROLE: 0.38%
-MARGIN: 0.30%
-RUN_EVENT: 0.13%
-PARTNERSHIP: 0.09%
-VENUE: 0.09%
-
 === POS TAG DISTRIBUTION ===
 PROPN: 430
 NOUN: 415
@@ -42,11 +32,6 @@ DET: 130
 PUNCT: 128
 PART: 98
 CCONJ: 82
-ADV: 67
-PRON: 64
-SCONJ: 47
-AUX: 32
-SYM: 2
 
 === DEPENDENCY TAG DISTRIBUTION ===
 prep: 261
@@ -59,67 +44,78 @@ punct: 130
 det: 129
 compound: 128
 conj: 92
-cc: 79
-poss: 74
-nummod: 72
-advcl: 66
-advmod: 66
-aux: 50
-case: 49
-mark: 41
-prt: 26
-npadvmod: 18
-ccomp: 16
-xcomp: 15
-acomp: 12
-pcomp: 11
-neg: 11
-nmod: 9
-acl: 8
-appos: 8
-dative: 7
-attr: 7
-quantmod: 7
-relcl: 7
-auxpass: 5
-agent: 3
-nsubjpass: 3
-dep: 2
-expl: 1
-predet: 1
-oprd: 1
-csubj: 1
 
-=== MANUAL (1–30) TAGS ===
-PROPN: 105 (22.63%)
-NOUN: 71 (15.30%)
-ADP: 56 (12.07%)
-VERB: 55 (11.85%)
-ADJ: 34 (7.33%)
-NUM: 27 (5.82%)
-PART: 21 (4.53%)
-DET: 20 (4.31%)
-CCONJ: 19 (4.09%)
-PRON: 17 (3.66%)
-PUNCT: 12 (2.59%)
-SCONJ: 11 (2.37%)
-ADV: 8 (1.72%)
-AUX: 7 (1.51%)
-SYM: 1 (0.22%)
+=== MANUAL (1–30) vs AUTO (31+) ===
 
-=== AUTO (31+) TAGS ===
-NOUN: 344 (18.29%)
-PROPN: 325 (17.28%)
-ADP: 226 (12.01%)
-VERB: 215 (11.43%)
-NUM: 122 (6.49%)
-PUNCT: 116 (6.17%)
-ADJ: 115 (6.11%)
-DET: 110 (5.85%)
-PART: 77 (4.09%)
-CCONJ: 63 (3.35%)
-ADV: 59 (3.14%)
-PRON: 47 (2.50%)
-SCONJ: 36 (1.91%)
-AUX: 25 (1.33%)
-SYM: 1 (0.05%)
+Manual Tags:
+PROPN: 22.63
+NOUN: 15.30
+ADP: 12.07
+VERB: 11.85
+ADJ: 7.33
+NUM: 5.82
+PART: 4.53
+DET: 4.31
+CCONJ: 4.09
+PRON: 3.66
+PUNCT: 2.59
+SCONJ: 2.37
+ADV: 1.72
+AUX: 1.51
+SYM: 0.22
+
+Auto Tags:
+NOUN: 18.29
+PROPN: 17.28
+ADP: 12.01
+VERB: 11.43
+NUM: 6.49
+PUNCT: 6.17
+ADJ: 6.11
+DET: 5.85
+PART: 4.09
+CCONJ: 3.35
+ADV: 3.14
+PRON: 2.50
+SCONJ: 1.91
+AUX: 1.33
+SYM: 0.05
+
+=== POS TAG % (HEADLINE) ===
+PROPN: 27.42%
+NOUN: 19.03%
+VERB: 11.94%
+ADP: 10.28%
+ADJ: 6.97%
+
+=== POS TAG % (SUMMARY) ===
+NOUN: 16.94%
+PROPN: 13.21%
+ADP: 13.01%
+VERB: 11.27%
+NUM: 7.67%
+
+=== CUSTOM TAG % (HEADLINE - MANUAL ONLY) ===
+O: 43.79%
+PLAYER: 20.26%
+RESULT: 13.07%
+TEAM: 13.07%
+SCORE: 3.27%
+TOURNAMENT: 2.61%
+ROLE: 2.61%
+MARGIN: 0.65%
+VENUE: 0.65%
+
+=== CUSTOM TAG % (SUMMARY - MANUAL ONLY) ===
+O: 67.85%
+PLAYER: 9.32%
+TEAM: 6.75%
+RESULT: 3.22%
+WICKET: 2.89%
+SCORE: 2.89%
+MARGIN: 1.93%
+TOURNAMENT: 1.61%
+ROLE: 1.61%
+RUN_EVENT: 0.96%
+PARTNERSHIP: 0.64%
+VENUE: 0.32%
